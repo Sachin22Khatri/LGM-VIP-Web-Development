@@ -1,0 +1,221 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: box-border;
+}
+
+body {
+  background-color: #757575;
+  background-image: linear-gradient(
+    359deg,
+    #ffdddd 0%,
+    #f4ddff 50%,
+    #fff8e9 100%
+  );
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #822be6;
+  padding: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.react-name {
+  padding-left: 0.4rem;
+  color: #61dafb;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.btn {
+  font-size: 1rem;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin: 2rem;
+  display: inline-block;
+  width: 250px;
+  height: 320px;
+  transition: 0.4s all ease-in;
+}
+
+.img {
+  padding-top: 0.5rem;
+}
+.card-image figure img {
+  text-align: center;
+  margin: 0 3.5rem;
+}
+
+.card:hover {
+  background-color: #ffb67b;
+  background-image: linear-gradient(180deg, #ffbb62 0%, #11ffff 100%);
+
+  transform: scale(110%);
+}
+
+/*           ----------------------------LOADER------------------------------                 */
+.st-react-loader-st-icon {
+  margin: 15% 0 0 45%;
+  width: 100vw;
+  height: 100vh;
+}
+
+.st-react-loader-tables {
+  background: #ffbe32;
+  border-radius: 3px;
+  content: "";
+  height: 1px;
+  left: 0;
+  margin-bottom: 6px;
+  padding: 8px;
+  position: relative;
+  text-align: center;
+  top: 0;
+  width: 1px;
+}
+
+#st-react-loader-tables-1 {
+  animation: st-react-loader-loading-1 0.7s infinite;
+  margin-left: 90px;
+  top: 7px;
+}
+
+#st-react-loader-tables-2 {
+  animation: st-react-loader-loading-4 0.7s infinite;
+  margin-left: 50px;
+  top: -4px;
+  transform: rotate(-40deg);
+}
+
+#st-react-loader-tables-3 {
+  animation: st-react-loader-loading-3 0.7s infinite;
+  margin-left: 33px;
+  top: 15px;
+}
+
+#st-react-loader-tables-4 {
+  animation: st-react-loader-loading-2 0.7s infinite;
+  margin-left: 48px;
+  top: 32px;
+  transform: rotate(40deg);
+}
+
+#st-react-loader-tables-5 {
+  animation: st-react-loader-loading-5 0.7s infinite;
+  margin-left: 90px;
+  top: 26px;
+}
+
+#st-react-loader-tables-6 {
+  animation: st-react-loader-loading-7 0.7s infinite;
+  margin-left: 145px;
+  top: -56px;
+}
+
+#st-react-loader-tables-7 {
+  animation: st-react-loader-loading-6 0.7s infinite;
+  margin-left: 130px;
+  top: -118px;
+  transform: rotate(40deg);
+}
+
+.st-react-loader-st-center {
+  position: relative;
+}
+
+@keyframes st-react-loader-loading-1 {
+  18% {
+    opacity: 1;
+  }
+  68% {
+    opacity: 0;
+  }
+}
+
+@keyframes st-react-loader-loading-2 {
+  17% {
+    opacity: 0;
+  }
+  67% {
+    opacity: 1;
+  }
+}
+
+@keyframes st-react-loader-loading-3 {
+  34% {
+    opacity: 0;
+  }
+  84% {
+    opacity: 1;
+  }
+}
+
+@keyframes st-react-loader-loading-4 {
+  1% {
+    opacity: 1;
+  }
+  51% {
+    opacity: 0;
+  }
+}
+
+@keyframes st-react-loader-loading-5 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes st-react-loader-loading-6 {
+  35% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 0;
+  }
+}
+
+@keyframes st-react-loader-loading-7 {
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.svg-div {
+  position: absolute;
+  left: 47px;
+  top: 1px;
+}
+
+.svg-shape-circle {
+  fill: transparent;
+  color: #ffad32;
+  stroke: #ff9d2c;
+  stroke-width: 10px;
+}
+
+.svg-shape-triangle {
+  color: #ffd51c;
+  fill: transparent;
+  stroke: #ffb619;
+  stroke-width: 10px;
+}
